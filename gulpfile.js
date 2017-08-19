@@ -116,7 +116,7 @@ gulp.task('default', ['clean'], function() {
 
 //雪碧图合成
 gulp.task('spriteMini', function() {
-  gulp.src('src/css/sprite.css')  //需要引入的背景图片样式文件
+  gulp.src('src/css/sprite.css')  //需要引入背景图片的样式文件
   .pipe(spriter({
     spriteSheet: './dist/imgs/spritesheet.png',//gulp自动合成的雪碧图
     pathToSpriteSheetFromCSS: '../imgs/spritesheet.png'//css引用的图片路径

@@ -1,7 +1,6 @@
 //模块化时采用webpack进行打包
 var webpack = require('webpack');
 const path = require('path');
-var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin");
 
 module.exports = {
   entry: {
