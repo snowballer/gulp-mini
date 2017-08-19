@@ -58,7 +58,7 @@ gulp.task('cssMini', function() {
   gulp.src('src/css/*.css')
   .pipe(sourcemaps.init())
   //合并代码（按需使用） ！！！
-  //.pipe(concat('bundle.js'))
+  //.pipe(concat('main.css'))
   .pipe(autoprefixer({
     browsers: ['last 2 versions'],
     cascade: false
