@@ -1,6 +1,6 @@
 # gulp-mini
 
-> 利用gulp和webpack压缩代码和图片的一款工具
+> 利用gulp和webpack压缩代码和图片的一款自动化工具
 
 ## 技术栈
 
